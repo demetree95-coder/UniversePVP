@@ -1,0 +1,424 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UniversePVP Store</title>
+  <link rel="icon" href="images/Gemini_Generated_Image_b0b0n8b0b0n8b0b0.png">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="bg-orbits"></div>
+  <header class="nav">
+    <div class="logo">
+      <div class="logo-mark">U</div>
+      <div>
+        <div class="logo-title">UniversePVP</div>
+        <div class="logo-sub">Minecraft Network</div>
+      </div>
+    </div>
+    <nav class="nav-links">
+      <a href="#keys">Keys</a>
+      <a href="#ranks">Ranks</a>
+      <a href="#payments">Payments</a>
+      <a href="#account">Account</a>
+      <a href="https://discord.gg/zrs6qRw8Sb" target="_blank" rel="noreferrer">Discord</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="btn ghost" data-copy="UniversePvP.tkmc.net">Copy IP</button>
+      <a class="btn primary" href="#keys">Shop Keys</a>
+      <div class="account-chip" id="account-chip">
+        <span class="chip-dot"></span>
+        <span id="account-chip-name">Guest</span>
+        <button class="chip-btn" type="button" id="chip-logout">Logout</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-content">
+        <div class="tag">UniversePVP Store</div>
+        <h1>Keys, Ranks, and Rewards</h1>
+        <p>Pick your keys, upgrade your rank, and claim instant rewards.</p>
+        <div class="hero-actions">
+          <button class="btn primary" data-copy="UniversePvP.tkmc.net">Join Server</button>
+          <a class="btn ghost" href="#keys">View Keys</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="server-card">
+          <div class="server-row">
+            <span class="label">Server IP</span>
+            <span class="value">UniversePvP.tkmc.net</span>
+          </div>
+          <button class="btn small" data-copy="UniversePvP.tkmc.net">Copy IP</button>
+          <div class="server-row">
+            <span class="label">Discord</span>
+            <a class="inline-link" href="https://discord.gg/zrs6qRw8Sb" target="_blank" rel="noreferrer">discord.gg/zrs6qRw8Sb</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="keys">
+      <div class="section-head">
+        <h2>Crate Keys</h2>
+        <p>Choose the key you want.</p>
+      </div>
+      <div class="crate-grid">
+        <article class="crate-card reveal" data-product="Rank Key" data-price="2">
+          <div class="crate-name">Rank Key</div>
+          <div class="price">$2</div>
+          <p>Ranks, perks, and bonus boosts.</p>
+          <button class="btn ghost full" data-purchase>Purchase</button>
+        </article>
+        <article class="crate-card reveal featured" data-product="Gear Key" data-price="3">
+          <div class="crate-name">Gear Key</div>
+          <div class="price">$3</div>
+          <p>Strong gear sets and PvP upgrades.</p>
+          <button class="btn primary full" data-purchase>Purchase</button>
+        </article>
+        <article class="crate-card reveal" data-product="Universe Key" data-price="1">
+          <div class="crate-name">Universe Key</div>
+          <div class="price">$1</div>
+          <p>Top tier rewards and exclusive cosmetics.</p>
+          <button class="btn ghost full" data-purchase>Purchase</button>
+        </article>
+        <article class="crate-card reveal" data-product="Cosmic Key" data-price="1">
+          <div class="crate-name">Cosmic Key</div>
+          <div class="price">$1</div>
+          <p>Rare items, pets, and extra coins.</p>
+          <button class="btn ghost full" data-purchase>Purchase</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="ranks">
+      <div class="section-head">
+        <h2>Ranks</h2>
+        <p>Upgrade your status and unlock better rewards.</p>
+      </div>
+      <div class="rank-grid">
+        <article class="rank-card reveal" data-product="Gladiator" data-price="1">
+          <div class="card-top">
+            <span class="badge">Starter</span>
+            <h3>Gladiator</h3>
+            <div class="price">$1</div>
+          </div>
+          <ul>
+            <li>Starter perks + kit</li>
+            <li>Bonus coins</li>
+          </ul>
+          <button class="btn ghost full" data-purchase>Purchase</button>
+        </article>
+        <article class="rank-card reveal" data-product="Imperator" data-price="2">
+          <div class="card-top">
+            <span class="badge">Rank</span>
+            <h3>Imperator</h3>
+            <div class="price">$2</div>
+          </div>
+          <ul>
+            <li>Extra kits</li>
+            <li>More crate drops</li>
+          </ul>
+          <button class="btn ghost full" data-purchase>Purchase</button>
+        </article>
+        <article class="rank-card reveal" data-product="Veteran" data-price="2">
+          <div class="card-top">
+            <span class="badge">Rank</span>
+            <h3>Veteran</h3>
+            <div class="price">$2</div>
+          </div>
+          <ul>
+            <li>Priority queue</li>
+            <li>Daily rewards</li>
+          </ul>
+          <button class="btn ghost full" data-purchase>Purchase</button>
+        </article>
+        <article class="rank-card reveal" data-product="Warlord" data-price="3">
+          <div class="card-top">
+            <span class="badge">Rank</span>
+            <h3>Warlord</h3>
+            <div class="price">$3</div>
+          </div>
+          <ul>
+            <li>Exclusive perks</li>
+            <li>Event access</li>
+          </ul>
+          <button class="btn ghost full" data-purchase>Purchase</button>
+        </article>
+        <article class="rank-card reveal" data-product="VIP" data-price="3">
+          <div class="card-top">
+            <span class="badge">VIP</span>
+            <h3>VIP</h3>
+            <div class="price">$3</div>
+          </div>
+          <ul>
+            <li>VIP cosmetics</li>
+            <li>Bonus key weekly</li>
+          </ul>
+          <button class="btn ghost full" data-purchase>Purchase</button>
+        </article>
+        <article class="rank-card reveal" data-product="MVP" data-price="3">
+          <div class="card-top">
+            <span class="badge">MVP</span>
+            <h3>MVP</h3>
+            <div class="price">$3</div>
+          </div>
+          <ul>
+            <li>Top tier kits</li>
+            <li>Extra homes</li>
+          </ul>
+          <button class="btn ghost full" data-purchase>Purchase</button>
+        </article>
+        <article class="rank-card reveal featured" data-product="MVP+" data-price="3">
+          <div class="card-top">
+            <span class="badge">MVP+</span>
+            <h3>MVP+</h3>
+            <div class="price">$3</div>
+          </div>
+          <ul>
+            <li>All MVP perks</li>
+            <li>Legendary bonuses</li>
+          </ul>
+          <button class="btn primary full" data-purchase>Purchase</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="payments">
+      <div class="section-head">
+        <h2>Smart Checkout</h2>
+        <p>Secure, instant, and linked to your Minecraft account.</p>
+      </div>
+      <div class="payments-wrap">
+        <div class="payments-main">
+          <div class="payment-hero">
+            <div class="payment-badge">Secure</div>
+            <h3>Choose your payment method</h3>
+            <p>Payments are auto-confirmed and rewards are delivered instantly.</p>
+            <div class="trust-row">
+              <span class="trust-chip">SSL Encrypted</span>
+              <span class="trust-chip">Instant Delivery</span>
+              <span class="trust-chip">24/7 Support</span>
+            </div>
+            <div class="payment-hint">Tip: click any Purchase button to auto-fill this checkout.</div>
+          </div>
+          <form class="payment-form" id="payment-form">
+            <div class="form-row">
+              <label class="input-label">Payment method</label>
+              <div class="method-grid">
+                <button class="method-card active" type="button" data-method="Card">
+                  <span class="method-icon">CC</span>
+                  <span class="method-title">Card</span>
+                  <span class="method-sub">Visa / MasterCard</span>
+                </button>
+                <button class="method-card" type="button" data-method="PayPal">
+                  <span class="method-icon">PP</span>
+                  <span class="method-title">PayPal</span>
+                  <span class="method-sub">Fast checkout</span>
+                </button>
+                <button class="method-card" type="button" data-method="Google Pay">
+                  <span class="method-icon">GP</span>
+                  <span class="method-title">Google Pay</span>
+                  <span class="method-sub">One-tap pay</span>
+                </button>
+                <button class="method-card" type="button" data-method="Crypto">
+                  <span class="method-icon">CR</span>
+                  <span class="method-title">Crypto</span>
+                  <span class="method-sub">USDT / BTC</span>
+                </button>
+              </div>
+            </div>
+            <div class="form-row">
+              <label class="input-label" for="payment-pack">Package</label>
+              <select class="input" id="payment-pack">
+                <option value="Gear Key" data-price="3" selected>Gear Key ($3)</option>
+                <option value="Rank Key" data-price="2">Rank Key ($2)</option>
+                <option value="Universe Key" data-price="1">Universe Key ($1)</option>
+                <option value="Cosmic Key" data-price="1">Cosmic Key ($1)</option>
+                <option value="Gladiator" data-price="1">Gladiator ($1)</option>
+                <option value="Imperator" data-price="2">Imperator ($2)</option>
+                <option value="Veteran" data-price="2">Veteran ($2)</option>
+                <option value="Warlord" data-price="3">Warlord ($3)</option>
+                <option value="VIP" data-price="3">VIP ($3)</option>
+                <option value="MVP" data-price="3">MVP ($3)</option>
+                <option value="MVP+" data-price="3">MVP+ ($3)</option>
+              </select>
+            </div>
+            <div class="form-row two-col">
+              <div>
+                <label class="input-label" for="payment-ign">Minecraft username</label>
+                <input class="input" id="payment-ign" type="text" placeholder="Steve" />
+              </div>
+              <div>
+                <label class="input-label" for="payment-email">Email</label>
+                <input class="input" id="payment-email" type="email" placeholder="you@mail.com" />
+              </div>
+            </div>
+            <div class="form-actions">
+              <button class="btn primary full" type="button">Continue to Payment</button>
+            </div>
+            <div class="form-note">Purchases activate automatically on your account.</div>
+            <div class="form-note" id="payment-linked">Account: Not linked</div>
+          </form>
+        </div>
+        <aside class="payments-side">
+          <div class="summary-card">
+            <h3>Order Summary</h3>
+            <div class="summary-row">
+              <span>Selected</span>
+              <span id="summary-item">Gear Key</span>
+            </div>
+            <div class="summary-row">
+              <span>Method</span>
+              <span id="summary-method">Card</span>
+            </div>
+            <div class="summary-row">
+              <span>Account</span>
+              <span id="summary-account">Not linked</span>
+            </div>
+            <div class="summary-row">
+              <span>Delivery</span>
+              <span>Instant</span>
+            </div>
+            <div class="summary-divider"></div>
+            <div class="summary-total">
+              <span>Total</span>
+              <span id="summary-total">$3</span>
+            </div>
+            <button class="btn ghost full" type="button">Proceed</button>
+          </div>
+          <div class="support-card">
+            <h3>Need help?</h3>
+            <p>Contact our staff anytime on Discord.</p>
+            <a class="inline-link" href="https://discord.gg/zrs6qRw8Sb" target="_blank" rel="noreferrer">Open support</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="account">
+      <div class="section-head">
+        <h2>Account</h2>
+        <p>Create an account or login to manage your purchases.</p>
+      </div>
+      <div class="account-grid">
+        <article class="account-card">
+          <h3>Account Status</h3>
+          <div class="status-row">
+            <span>Status</span>
+            <span class="status-value" id="account-status">Not logged in</span>
+          </div>
+          <div class="status-row">
+            <span>Username</span>
+            <span class="status-value" id="account-user">-</span>
+          </div>
+          <div class="status-row">
+            <span>Email</span>
+            <span class="status-value" id="account-email">-</span>
+          </div>
+          <button class="btn ghost full" type="button" id="logout-btn" disabled>Logout</button>
+        </article>
+        <article class="account-card">
+          <h3>Member Benefits</h3>
+          <ul class="account-list">
+            <li>Instant delivery on all purchases</li>
+            <li>Linked to your Minecraft username</li>
+            <li>Priority support on Discord</li>
+          </ul>
+        </article>
+      </div>
+      <div class="auth-panel">
+        <div class="auth-tabs">
+          <button class="auth-tab" type="button" data-auth="register">Register</button>
+          <button class="auth-tab" type="button" data-auth="login">Login</button>
+        </div>
+        <div class="auth-panes">
+          <article class="auth-card register-card auth-pane" data-auth-pane="register">
+            <div class="register-badge">New</div>
+            <h3>Register</h3>
+            <form class="auth-form">
+              <div class="form-row">
+                <label class="input-label" for="reg-user">Minecraft username</label>
+                <input class="input" id="reg-user" type="text" placeholder="Steve" />
+              </div>
+              <div class="form-row">
+                <label class="input-label" for="reg-email">Email</label>
+                <input class="input" id="reg-email" type="email" placeholder="you@mail.com" />
+              </div>
+              <div class="form-row">
+                <label class="input-label" for="reg-pass">Password</label>
+                <input class="input" id="reg-pass" type="password" placeholder="Create a password" />
+              </div>
+              <div class="form-row">
+                <label class="input-label" for="reg-pass-confirm">Confirm password</label>
+                <input class="input" id="reg-pass-confirm" type="password" placeholder="Repeat password" />
+              </div>
+              <label class="checkbox">
+                <input type="checkbox" />
+                I accept the store rules
+              </label>
+              <div class="form-actions">
+                <button class="btn ghost full" type="button" data-register-btn>Create Account</button>
+              </div>
+            </form>
+            <div class="auth-switch">
+              <span>Already have an account?</span>
+              <button class="link-button" type="button" data-auth="login">Login</button>
+            </div>
+          </article>
+
+          <article class="auth-card login-card auth-pane" data-auth-pane="login">
+            <h3>Login</h3>
+            <form class="auth-form">
+              <div class="form-row">
+                <label class="input-label" for="login-user">Email or username</label>
+                <input class="input" id="login-user" type="text" placeholder="yourname" />
+              </div>
+              <div class="form-row">
+                <label class="input-label" for="login-pass">Password</label>
+                <input class="input" id="login-pass" type="password" placeholder="••••••••" />
+              </div>
+              <div class="checkbox-row">
+                <label class="checkbox">
+                  <input type="checkbox" />
+                  Remember me
+                </label>
+                <a class="inline-link" href="https://discord.gg/zrs6qRw8Sb" target="_blank" rel="noreferrer">Forgot password?</a>
+              </div>
+              <div class="form-actions">
+                <button class="btn primary full" type="button" data-login-btn>Login</button>
+              </div>
+            </form>
+            <div class="login-status" id="login-status">Not logged in</div>
+            <div class="auth-switch">
+              <span>Need an account?</span>
+              <button class="link-button" type="button" data-auth="register">Register</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <div class="logo-title">UniversePVP</div>
+      <div class="logo-sub">UniversePvP.tkmc.net</div>
+    </div>
+    <div class="footer-meta">
+      <span><a class="footer-link" href="https://discord.gg/zrs6qRw8Sb" target="_blank" rel="noreferrer">Join Discord</a></span>
+      <span>© <span id="year"></span> UniversePVP</span>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">IP copied</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
